@@ -140,44 +140,98 @@ body {
     left: 73%;
 }
 
+/* <!-- Social Proof Section --> */
+.social_section {
+    background-color: #f8fafc;
+}
+
+.social_section .social_row1 {
+    display: grid;
+    gap: 10px;
+    align-items: center;
+    grid-template-columns: repeat(6, 1fr);
+    max-width: 1200px;
+    margin: 64px 100px 0px 100px;
+    padding: 30px 10px;
+}
+
+.social_section .social_row1 img {
+    width: 144px;
+}
 
 
-/*Responsive For Tablet */
+.social_section .social_row2 {
+    width: 976px;
+    display: grid;
+    gap: 5px;
+    align-items: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0px auto 0px auto;
+}
 
-@media (min-width: 769px) and (max-width: 1024px) {
-    /* General Adjustments */
-
-    /* Header & Navigation */
-    .nav_section {
-        padding: 0 40px;
-    }
-
-    .nav_section ul {
-        display: flex;
-    }
-
-
-    /* Hero Section */
-    .hero_section .hero-title {
-        font-size: 48px;
-        width: 80%;
-        margin: 0 auto;
-    }
-
-    .hero_img img {
-        margin-top: 60px;
-        width: 97%;
-        padding-left: 16px;
-        padding-right: 16px;
-        padding-bottom: 120px;
-    }
-
-    .hero_img .mobile_view {
-        left: 60%;
-        bottom: 0;
-        width: 200px;
-        height: 400px;
-    }
+.social_section .social_row2 img {
+    width: 130px;
+}
 
 
+/* Features Section Start */
+
+.features_section {
+    background-color: #f8fafc;
+}
+
+.features_upper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 800px;
+    margin: 50px auto 0px auto;
+    gap: 20px;
+}
+
+.features_upper p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4f46e5;
+    border: 1px solid #eef2ff;
+    padding: 5px 10px;
+    border-radius: 1234px;
+    background-color: #eef2ff;
+}
+
+.features_upper h3 {
+    font-weight: 800;
+    color: #1e293b;
+    font-size: 36px;
+}
+
+.features_upper h2 {
+    font-weight: 400;
+    font-size: 20px;
+    color: #475569;
+}
+
+
+.features_lower {
+    margin: 50px 60px 0px 60px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px 40px;
+}
+
+.features_lower .features_contents {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+.features_lower .features_contents img {
+    width: 55px;
+    height: 55px;
 }
