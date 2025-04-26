@@ -431,3 +431,273 @@ body {
     position: absolute;
     right: 0;
 }
+
+/* Testimonials Section */
+.testimonials_section {
+    background-color: #f8fafc;
+}
+
+.testimonials_upper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 55px;
+    gap: 20px;
+}
+
+.testimonials_upper p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4f46e5;
+    border: 1px solid #eef2ff;
+    padding: 5px 10px;
+    border-radius: 1234px;
+    background-color: #eef2ff;
+}
+
+.testimonials_upper h2 {
+    color: #1e293b;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.testimonials_upper h5 {
+    color: #475569;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.testimonials_lower {
+    margin: 50px 100px 0px 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding-bottom: 90px;
+}
+
+.testimonials_lower .testimonials {
+    border: 1px solid #e2e8f0;
+    padding: 20px 15px;
+    border-radius: 20px;
+}
+
+.testimonials_lower img {
+    width: 20px;
+    margin-bottom: 20px;
+}
+
+.testimonials p {
+    margin-bottom: 10px;
+    color: #475569;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.testimonials h2 {
+    color: #1e293b;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.testimonials h3 {
+    color: #475569;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.testimonials .user_feedback img {
+    border-radius: 100%;
+}
+
+.user_feedback {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.user_feedback img {
+    width: 48px;
+    height: 48px;
+}
+
+.user_feedback div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_contents {
+    margin: 50px 110px 0px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Contact Section */
+
+.contact_contents h3 {
+    font-size: 14px;
+    width: 110px;
+    font-weight: 600;
+    color: #4f46e5;
+    border: 1px solid #eef2ff;
+    padding: 5px 10px;
+    border-radius: 1234px;
+    background-color: #eef2ff;
+}
+
+.contact_contents h2 {
+    color: #1e293b;
+    font-weight: 800;
+    font-size: 36px;
+}
+
+.contact_contents p {
+    color: #475569;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.contact_info {
+    margin: 30px 110px 0px 110px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 32px;
+    margin-top: 64px;
+}
+
+.contact_info div {
+    border: 1px solid #e2e8f0;
+    padding: 26px 20px;
+    border-radius: 30px;
+}
+
+.contact_info div img {
+    width: 18px;
+    height: 21px;
+    margin-bottom: 24px;
+}
+
+.contact_info div h2 {
+    color: #1e293b;
+    font-weight: 800;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.contact_info div p {
+    color: #1e293b;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* FAQ Section */
+.faq_section {
+    background-color: #f8fafc;
+    margin-top: 55px;
+}
+
+.faq_upper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 55px;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.faq_upper p {
+    font-size: 14px;
+    font-weight: 600;
+    color: #4f46e5;
+    border: 1px solid #eef2ff;
+    padding: 5px 10px;
+    border-radius: 1234px;
+    background-color: #eef2ff;
+}
+
+.faq_upper h2 {
+    color: #1e293b;
+    font-weight: 800;
+    font-size: 36px;
+
+}
+
+.faq_upper h5 {
+    color: #475569;
+    font-weight: 400;
+    font-size: 18px;
+    width: 800px;
+}
+
+
+.faq_contents {
+    color: #334155;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 1.5rem 0;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+
+.faq-answer {
+    display: block;
+    max-width: 800px;
+    margin: auto;
+    padding: 1rem 0;
+    color: #64748b;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+.main_faq_contents.active .faq-answer {
+    display: block;
+}
+
+
+.arrow-icon.rotate {
+    transform: rotate(180deg);
+}
+
+.arrow-icon {
+    transition: transform 0.3s ease;
+}
+
+.faq_one,
+.faq_two,
+.faq_three,
+.faq_four,
+.faq_five p {
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.faq_contents:hover {
+    background-color: #f9f9f9;
+}
+
+.faq_contents div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.faq_contents div img {
+    width: 50px;
+    height: 50px;
+}
+
+.faq_contents img {
+    width: 30px;
+    height: 30px;
+}
