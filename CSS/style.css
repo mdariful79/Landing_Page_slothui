@@ -178,6 +178,8 @@ body {
 
 .features_section {
     background-color: #f8fafc;
+    color: #475569;
+
 }
 
 .features_upper {
@@ -212,7 +214,6 @@ body {
     color: #475569;
 }
 
-
 .features_lower {
     margin: 50px 60px 0px 60px;
     display: grid;
@@ -221,17 +222,212 @@ body {
     padding: 10px 40px;
 }
 
+.features_lower h2 {
+    color: #1E293B;
+}
+
 .features_lower .features_contents {
     display: flex;
     flex-direction: column;
     gap: 10px;
     align-items: center;
     text-align: center;
-
-
 }
 
 .features_lower .features_contents img {
     width: 55px;
     height: 55px;
+}
+
+/* Statistic Section */
+
+.statistic_section {
+    background-color: #f8fafc;
+    margin-top: 20px;
+    padding: 30px 20px;
+    color: #475569;
+}
+
+.stat_upper {
+    width: 800px;
+    margin: 20px auto 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+}
+
+.statistic_section .stat_upper h2 {
+    color: #1E293B;
+}
+
+.statistic_section .stat_upper p {
+    color: #475569;
+}
+
+.statistic_section .stat_upper img {
+    width: 28px;
+    height: 28px;
+}
+
+.statistic_section .stat_lower {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 850px;
+    margin: 30px auto 0px auto;
+}
+
+.statistic_section .stat_lower .stat_lower_contents {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.statistic_section .stat_lower .stat_lower_contents h2 {
+    font-size: 60px;
+    color: #4f46e5;
+
+}
+
+/* Stat_Dashboard Section End  */
+
+.stat_dashboard_section {
+    margin-top: 70px;
+    margin-bottom: 40px;
+}
+
+.stat_dashboard_section .dashboard_upper {
+    width: 680px;
+    margin-left: 112px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.stat_dashboard_section .dashboard_upper p {
+    font-size: 14px;
+    width: 90px;
+    font-weight: 600;
+    color: #4f46e5;
+    border: 1px solid #eef2ff;
+    padding: 5px 10px;
+    border-radius: 1234px;
+    background-color: #eef2ff;
+}
+
+.stat_dashboard_section .dashboard_upper h2 {
+    color: #1e293b;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.stat_dashboard_section .dashboard_upper h3 {
+    color: #475569;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.dashboard_lower {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 110px 0px 110px;
+    margin-top: 64px;
+}
+
+.dlower_left {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    position: relative;
+}
+
+.dlower_left div {
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.dlower_left div h2 {
+    font-weight: 700;
+    font-size: 20px;
+    color: #475569;
+    margin-left: 10px;
+}
+
+.dlower_left div p {
+    font-weight: 400;
+    color: #475569;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.dlower_left .span_one {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 0;
+    border-left: 3px solid blue;
+}
+
+.dlower_left .span_two {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 0;
+    display: none;
+    border-left: 3px solid blue;
+}
+
+.dlower_left .span_three {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 0;
+    border-left: 3px solid rgb(210, 210, 230);
+
+}
+
+.dlower_left .span_four {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 0;
+    display: none;
+    border-left: 3px solid blue;
+}
+
+.dlower_left .span_five {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 0;
+    display: none;
+    border-left: 3px solid blue;
+}
+
+.dlower_left .span_six {
+    position: absolute;
+    left: 0;
+    height: 100px;
+    width: 0;
+    display: hidden;
+    border-left: 3px solid rgb(210, 210, 230);
+}
+
+.dlower_right {
+    position: relative;
+    border-radius: 32px;
+    width: 43%;
+    height: auto;
+    background-color: #f1f5f9;
+}
+
+.dlower_right .dash_img2 {
+    position: absolute;
+    right: 0;
 }
