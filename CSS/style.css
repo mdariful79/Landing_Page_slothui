@@ -701,3 +701,146 @@ body {
     width: 30px;
     height: 30px;
 }
+
+/* CTA Section */
+
+.cta_contents {
+    display: flex;
+    background: linear-gradient(to right, #eef2ff, #e7e4f1, #e1e0e6);
+    height: 600px;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.cta_left {
+    margin: 0px 110px 0px 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.cta_left h2 {
+    font-size: 36px;
+    color: #1e293b;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.cta_left p {
+    font-size: 18px;
+    color: #475569;
+    font-weight: 700;
+    width: 560px;
+}
+
+.cta_left .download_button {
+    display: flex;
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.download_button .btn_learn {
+    color: #4f46e5;
+    border: 1px solid #4f46e5;
+    padding: 10px 8px 10px 8px;
+    border-radius: 1234px;
+}
+
+.download_button .btn_start {
+    background-color: #4f46e5;
+    border: 1px solid #4f46e5;
+    border-radius: 1234px;
+    padding: 10px 8px 10px 8px;
+    color: white;
+}
+
+.cta_images {
+    position: relative;
+}
+
+.cta_images .cta_stat_img1 {
+    margin-top: 50px;
+    margin-right: 400px;
+    width: 318px;
+    border-radius: 30px;
+}
+
+.cta_images .cta_stat_img2 {
+    position: absolute;
+    right: 100px;
+    height: 90%;
+    border-bottom-left-radius: 25px;
+}
+
+/* Footer section */
+.footer_section {
+    background-color: #f8fafc;
+    padding: 96px 0px 96px 0px;
+}
+
+.footer_upper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 32px;
+    margin: 0px 110px 0px 110px;
+}
+
+.footer_upper p {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1e293b;
+}
+
+.footer_upper ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 16px;
+}
+
+.footer_upper ul li {
+    list-style: none;
+    color: #475569;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+hr {
+    margin: 40px 110px 0px 110px;
+}
+
+.footer_lower {
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    gap: 40%;
+    margin: 80px 110px 0px 110px;
+}
+
+.footer_lower .footer_logo {
+    width: 110px;
+    height: 32px;
+}
+
+.footer_lower .copy_right {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.footer_lower p {
+    color: #94a3b8;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.footer_lower .copy_right .up_arrow {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #CBD5E1;
+    border-radius: 100%;
+    cursor: pointer;
+}
